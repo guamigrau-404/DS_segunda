@@ -2,12 +2,12 @@
 class ordemServicos{
     protected int $id;
     protected usuario $requisitante;
-    protected DateTime $data_hora_requisicao;
+    protected string $data_hora_requisicao;
     protected string $tipo_solicitacao;//queria um ENUM :(
     protected int $id_departamento;
-    protected DateTime $updated_at;
-    protected DateTime $created_at;
-    protected DateTime $deleted_at;
+    protected string $updated_at;
+    protected string $created_at;
+    protected string $deleted_at;
     protected string $detalhes;
     protected string $status;
 
