@@ -1,0 +1,66 @@
+body{
+    background-color: #f3c1b9;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.cartao-login{
+    padding: 40px;
+    width: 400px;
+    height: 450px;
+    border-radius: 25px;
+    background:linear-gradient(to bottom right, #1eb4c5,#1f0276);
+}
+form{
+    width: 100%;
+    margin: 20px auto;
+}
+.cartao-login h1{
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: white;
+}
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-family: 'Segoe UI', Tahoma, sans-serif; 
+    color: white;
+}
+
+input{
+    margin-bottom: 0px;
+    width: 93%;
+    padding: 15px;
+    background-color: #d5d5e8;
+    border: none;
+    border-radius: 25px;
+    color: rgb(5, 5, 5);
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 15px;
+}
+button{
+    width: 100%;
+    margin-top: 35px;
+    padding: 15px;
+    background-color: #2ca2b1;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+     font-weight: bold;
+     border: none;
+     cursor: pointer;
+     border-radius: 25px;
+     font-size: 16px;
+}
+button:hover{
+  background-color: #248b98;
+  transform: scale(1.02);
+   transition: all 0.2s ease;
+}
+button:active {
+    background-color: #1b6a75;
+    transform: scale(0.98);
+}
